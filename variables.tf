@@ -14,6 +14,6 @@ variable "private_subnent_cidrs" {
 variable "database_subnent_cidrs" {
     default = ["10.0.21.0/24", "10.0.22.0/24"]
 }
-variable "is_peering_required" {
-    default = "false"
-}
+# variable "is_peering_required" {
+#     default = "false"
+# }
